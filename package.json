@@ -1,0 +1,35 @@
+{
+  "name": "@dwlib/basex",
+  "version": "1.0.0",
+  "description": "BaseX",
+  "main": "lib/index.js",
+  "exports": {
+    "require": "./lib/index.js",
+    "import": "./lib/index.mjs"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwlib-js/basex.git"
+  },
+  "keywords": [
+    "basex",
+    "encoding",
+    "decoding"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwlib-js/basex/issues"
+  },
+  "homepage": "https://github.com/dwlib-js/basex#readme",
+  "dependencies": {
+    "@dwlib/abstract": "^1.0.2",
+    "@dwlib/internal-slots": "^1.0.0",
+    "@dwlib/primordials": "^1.0.2",
+    "@dwlib/utf8": "^1.0.3"
+  }
+}
