@@ -28,10 +28,6 @@
       "require": "./lib/index.js",
       "import": "./lib/index.mjs"
     },
-    "./*": {
-      "require": "./lib/*.js",
-      "import": "./lib/*.mjs"
-    },
     "./prototype": {
       "require": "./lib/prototype/index.js",
       "import": "./lib/prototype/index.mjs"
